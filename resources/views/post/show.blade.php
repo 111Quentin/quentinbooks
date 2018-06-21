@@ -22,7 +22,7 @@
                 <p><p>{!!$post->content!!}<br></p></p>
                 <div>
                     @if($post->zan(\Auth::id())->exists())
-                    <a href="/posts/{{$post->id}}/unzan" type="button" class="btn btn-default btn-lg">取消赞</a>
+                    <a href="/posts/{{$post->id}}/unzan" type="button" class="btn btn-primary btn-lg">取消赞</a>
                      @else
                     <a href="/posts/{{$post->id}}/zan" type="button" class="btn btn-primary btn-lg">赞</a>
                    @endif
@@ -58,7 +58,8 @@
                         <li class="list-group-item">
                             <textarea name="content" class="form-control" rows="10"></textarea>
                               @include('layout.error')
-                            <button class="btn btn-default" type="submit">提交</button>
+                            <br/>
+                            <button class="btn btn-primary" type="submit">提交</button>
                         </li>
                     </form>
 

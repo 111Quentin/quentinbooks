@@ -1,9 +1,10 @@
-<div class="blog-masthead fixed-top">
+<div class="blog-masthead ">
     <div class="container">
 
         <form action="/posts/search" method="get">
+
             <ul class="nav navbar-nav navbar-left">
-                <a class="navbar-brand"  href="/posts">Quentin Books</a>
+                 <a class="navbar-brand"  href="/posts">Quentin Books</a>
                 <li>
                     <a class="blog-nav-item " href="/posts">首页</a>
                 </li>

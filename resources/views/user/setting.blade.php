@@ -19,7 +19,7 @@
             </div>
         </div>
         @include('layout.error')
-        <button type="submit" class="btn btn-default">修改</button>
+        <button type="submit" class="btn btn-primary">修改</button>
     </form>
     <br>
 </div>

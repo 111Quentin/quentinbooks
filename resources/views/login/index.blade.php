@@ -29,11 +29,14 @@
 
               <p><a href="#">Forgot password?</a></p>
           </div>
+
+           <div>
             <ul class="login-buttons">
                 <li><input type="submit" value="LOGIN"/></li>
-                <li><a href="/register" class="hvr-sweep-to-left">REGISTER</a></li>
+                <li><a href="/register" class="hvr-sweep-to-left ">REGISTER</a></li>
                 <div class="clear"> </div>
             </ul>
+           </div>
         </form>
          @include('layout.error')
     </div>

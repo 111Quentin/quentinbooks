@@ -10,10 +10,10 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="MESUY3topeHgvFqsy9EcM916UWQq6khiGHM91wHy">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>laravel for blog</title>
+    <title>Quentin Books</title>
 
     <!-- Bootstrap core CSS -->
-    {{--<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">--}}
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/css/app.css" rel="stylesheet">

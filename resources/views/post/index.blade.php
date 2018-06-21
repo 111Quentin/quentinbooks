@@ -11,15 +11,15 @@
                     </ol><!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="{{ URL::asset('images/001.png') }}" alt="..." />
+                            <img src="http://pic1.win4000.com/wallpaper/2017-11-17/5a0ea12b335a5.jpg" alt="..." />
                             <div class="carousel-caption">...</div>
                         </div>
                         <div class="item">
-                            <img src="{{ URL::asset('images/002.png') }}" alt="..." />
+                            <img src="http://d.5857.com/liqin_180118/004.jpg" alt="..." />
                             <div class="carousel-caption">...</div>
                         </div>
                         <div class="item">
-                            <img src="{{ URL::asset('images/003.png') }}" alt="..." />
+                            <img src="http://d.5857.com/liqin_180118/005.jpg" alt="..." />
                             <div class="carousel-caption">...</div>
                         </div>
                     </div>
